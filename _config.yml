@@ -11,8 +11,8 @@ execute:
   execute_notebooks: force
 repository:
   url: https://github.com/cofinoa/Introduction-to-Python #Add source repository buttons
+  branch: main  # An optional branch, defaults to `master`
 #  path_to_book: path/to/your/book  # An optional path to your book, defaults to repo root
-#  branch: yourbranch  # An optional branch, defaults to `master`
 
 html:
   use_repository_button: true #Add a link to your repository
