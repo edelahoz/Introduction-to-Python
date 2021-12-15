@@ -9,3 +9,17 @@ logo: images/python-logo.svg
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+repository:
+  url: https://github.com/cofinoa/Introduction-to-Python #Add source repository buttons
+  branch: main  # An optional branch, defaults to `master`
+#  path_to_book: path/to/your/book  # An optional path to your book, defaults to repo root
+
+html:
+  use_repository_button: true #Add a link to your repository
+  use_issues_button: true     #Add a button to open issues
+  use_edit_page_button: true  #Add a button to suggest edits
+
+launch_buttons:
+  notebook_interface: "jupyterlab"  # or "classic" #
+  binderhub_url: "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)
+  thebe: true
